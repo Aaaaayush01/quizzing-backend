@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "What is JavaScript?",
+    "options": ["Language", "Database", "Server", "OS"],
+    "answer": "Language",
+    "category": "Programming",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What is React?",
+    "options": ["Library", "Framework", "Tool", "IDE"],
+    "answer": "Library",
+    "category": "Frontend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What is HTML?",
+    "options": ["Markup Language", "Programming Language", "Database", "Protocol"],
+    "answer": "Markup Language",
+    "category": "Frontend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "What is CSS used for?",
+    "options": ["Styling", "Logic", "Database", "Networking"],
+    "answer": "Styling",
+    "category": "Frontend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "What is Node.js?",
+    "options": ["Runtime", "Library", "Framework", "Database"],
+    "answer": "Runtime",
+    "category": "Backend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What is Git?",
+    "options": ["Version Control", "Database", "IDE", "Compiler"],
+    "answer": "Version Control",
+    "category": "Tools",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "What is an API?",
+    "options": ["Interface", "Language", "Database", "OS"],
+    "answer": "Interface",
+    "category": "Backend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is a database?",
+    "options": ["Data Storage", "Language", "Framework", "Protocol"],
+    "answer": "Data Storage",
+    "category": "Database",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "What is Python?",
+    "options": ["Programming Language", "Database", "Framework", "Browser"],
+    "answer": "Programming Language",
+    "category": "Programming",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What is an IDE?",
+    "options": ["Development Environment", "Database", "Protocol", "Server"],
+    "answer": "Development Environment",
+    "category": "Tools",
+    "difficulty": "easy"
+  }
+]
