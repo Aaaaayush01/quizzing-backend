@@ -20,6 +20,10 @@ app.get("/api/questions", async (req, res) => {
     // 🔥 TRY API FIRST
     let url = `https://opentdb.com/api.php?amount=${count}`;
 
+    if (category) {
+  url += `&category=${category}`;
+}
+
     if (difficulty) {
       url += `&difficulty=${difficulty.toLowerCase()}`;
     }
@@ -85,7 +89,7 @@ console.log("ERROR:", err);
 app.post("/api/submit", (req, res) => {
   const newResult = req.body;
 
-  const filePath = "./data/results.json";
+  const filePath = path.join(__dirname, "data", "results.json");
 
   const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 

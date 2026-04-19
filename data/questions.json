@@ -2,49 +2,60 @@
   {
     "id": 1,
     "question": "What is JavaScript?",
-    "options": ["Language", "Database", "Server", "OS"],
-    "answer": "Language",
-    "category": "Programming",
+    "options": ["Programming Language", "Database", "Server", "OS"],
+    "answer": "Programming Language",
+    "category": "programming",
     "difficulty": "easy"
   },
   {
     "id": 2,
-    "question": "What is React?",
-    "options": ["Library", "Framework", "Tool", "IDE"],
-    "answer": "Library",
-    "category": "Frontend",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style System",
+      "Creative Style Syntax",
+      "Code Styling Sheet"
+    ],
+    "answer": "Cascading Style Sheets",
+    "category": "frontend",
     "difficulty": "easy"
   },
   {
     "id": 3,
     "question": "What is HTML?",
-    "options": ["Markup Language", "Programming Language", "Database", "Protocol"],
+    "options": [
+      "Markup Language",
+      "Programming Language",
+      "Database",
+      "Protocol"
+    ],
     "answer": "Markup Language",
-    "category": "Frontend",
+    "category": "frontend",
     "difficulty": "easy"
   },
   {
     "id": 4,
-    "question": "What is CSS used for?",
-    "options": ["Styling", "Logic", "Database", "Networking"],
-    "answer": "Styling",
-    "category": "Frontend",
+    "question": "What is Node.js?",
+    "options": ["Runtime", "Framework", "Library", "Database"],
+    "answer": "Runtime",
+    "category": "backend",
     "difficulty": "easy"
   },
   {
     "id": 5,
-    "question": "What is Node.js?",
-    "options": ["Runtime", "Library", "Framework", "Database"],
-    "answer": "Runtime",
-    "category": "Backend",
+    "question": "Which keyword declares a variable?",
+    "options": ["let", "int", "varr", "define"],
+    "answer": "let",
+    "category": "programming",
     "difficulty": "easy"
   },
+
   {
     "id": 6,
     "question": "What is Git?",
     "options": ["Version Control", "Database", "IDE", "Compiler"],
     "answer": "Version Control",
-    "category": "Tools",
+    "category": "tools",
     "difficulty": "easy"
   },
   {
@@ -52,7 +63,7 @@
     "question": "What is an API?",
     "options": ["Interface", "Language", "Database", "OS"],
     "answer": "Interface",
-    "category": "Backend",
+    "category": "backend",
     "difficulty": "easy"
   },
   {
@@ -60,7 +71,7 @@
     "question": "What is a database?",
     "options": ["Data Storage", "Language", "Framework", "Protocol"],
     "answer": "Data Storage",
-    "category": "Database",
+    "category": "database",
     "difficulty": "easy"
   },
   {
@@ -68,7 +79,7 @@
     "question": "What is Python?",
     "options": ["Programming Language", "Database", "Framework", "Browser"],
     "answer": "Programming Language",
-    "category": "Programming",
+    "category": "programming",
     "difficulty": "easy"
   },
   {
@@ -76,7 +87,335 @@
     "question": "What is an IDE?",
     "options": ["Development Environment", "Database", "Protocol", "Server"],
     "answer": "Development Environment",
-    "category": "Tools",
+    "category": "tools",
     "difficulty": "easy"
+  },
+
+  {
+    "id": 11,
+    "question": "What is React?",
+    "options": ["Library", "Framework", "Language", "Database"],
+    "answer": "Library",
+    "category": "frontend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "question": "What is a closure?",
+    "options": ["Function with scope", "Loop", "Class", "Callback"],
+    "answer": "Function with scope",
+    "category": "programming",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "What is REST?",
+    "options": ["State Transfer", "Database", "Protocol", "Server"],
+    "answer": "State Transfer",
+    "category": "backend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "question": "Which hook handles side effects?",
+    "options": ["useEffect", "useState", "useRef", "useMemo"],
+    "answer": "useEffect",
+    "category": "frontend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "question": "What is normalization?",
+    "options": ["Reduce redundancy", "Increase data", "Sort", "Encrypt"],
+    "answer": "Reduce redundancy",
+    "category": "database",
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 16,
+    "question": "What is event delegation?",
+    "options": ["Parent handling", "Multiple listeners", "Blocking", "Async"],
+    "answer": "Parent handling",
+    "category": "frontend",
+    "difficulty": "hard"
+  },
+  {
+    "id": 17,
+    "question": "What is Big-O?",
+    "options": ["Complexity", "UI", "Database", "Memory"],
+    "answer": "Complexity",
+    "category": "programming",
+    "difficulty": "hard"
+  },
+  {
+    "id": 18,
+    "question": "What is a promise?",
+    "options": ["Async result", "Loop", "Object", "Function"],
+    "answer": "Async result",
+    "category": "programming",
+    "difficulty": "hard"
+  },
+  {
+    "id": 19,
+    "question": "What is indexing?",
+    "options": ["Faster queries", "Delete", "Compress", "Encrypt"],
+    "answer": "Faster queries",
+    "category": "database",
+    "difficulty": "hard"
+  },
+  {
+    "id": 20,
+    "question": "What is middleware?",
+    "options": ["Between req-res", "Database", "UI", "Compiler"],
+    "answer": "Between req-res",
+    "category": "backend",
+    "difficulty": "hard"
+  },
+
+  {
+    "id": 21,
+    "question": "What is HTTP?",
+    "options": ["Protocol", "Language", "Database", "OS"],
+    "answer": "Protocol",
+    "category": "backend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What is JSON?",
+    "options": ["Data format", "Language", "Database", "Framework"],
+    "answer": "Data format",
+    "category": "programming",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "What is SQL?",
+    "options": ["Query language", "Programming", "OS", "Protocol"],
+    "answer": "Query language",
+    "category": "database",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "What is DOM?",
+    "options": ["Document structure", "Database", "Protocol", "Framework"],
+    "answer": "Document structure",
+    "category": "frontend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "What is npm?",
+    "options": ["Package manager", "Database", "Compiler", "Server"],
+    "answer": "Package manager",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 26,
+    "question": "What is async/await?",
+    "options": ["Async handling", "Loop", "Object", "Syntax error"],
+    "answer": "Async handling",
+    "category": "programming",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "What is MVC?",
+    "options": ["Architecture pattern", "Database", "Language", "Protocol"],
+    "answer": "Architecture pattern",
+    "category": "backend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "What is state in React?",
+    "options": ["Component data", "CSS", "API", "Database"],
+    "answer": "Component data",
+    "category": "frontend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "What is JOIN in SQL?",
+    "options": ["Combine tables", "Delete", "Insert", "Sort"],
+    "answer": "Combine tables",
+    "category": "database",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "What is debugging?",
+    "options": ["Fix errors", "Compile", "Deploy", "Design"],
+    "answer": "Fix errors",
+    "category": "programming",
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 31,
+    "question": "What is hoisting?",
+    "options": ["Variable lifting", "Loop", "Class", "Promise"],
+    "answer": "Variable lifting",
+    "category": "programming",
+    "difficulty": "hard"
+  },
+  {
+    "id": 32,
+    "question": "What is CORS?",
+    "options": ["Security policy", "Database", "Framework", "Protocol"],
+    "answer": "Security policy",
+    "category": "backend",
+    "difficulty": "hard"
+  },
+  {
+    "id": 33,
+    "question": "What is virtual DOM?",
+    "options": ["React feature", "Database", "Protocol", "API"],
+    "answer": "React feature",
+    "category": "frontend",
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "question": "What is indexing type?",
+    "options": ["B-tree", "Array", "String", "Loop"],
+    "answer": "B-tree",
+    "category": "database",
+    "difficulty": "hard"
+  },
+  {
+    "id": 35,
+    "question": "What is recursion?",
+    "options": ["Function calls itself", "Loop", "Class", "API"],
+    "answer": "Function calls itself",
+    "category": "programming",
+    "difficulty": "hard"
+  },
+
+  {
+    "id": 36,
+    "question": "What is Linux?",
+    "options": ["OS", "Database", "Language", "Tool"],
+    "answer": "OS",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "question": "What is Bootstrap?",
+    "options": ["CSS framework", "Database", "Language", "API"],
+    "answer": "CSS framework",
+    "category": "frontend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "question": "What is Express?",
+    "options": ["Backend framework", "Frontend", "Database", "Tool"],
+    "answer": "Backend framework",
+    "category": "backend",
+    "difficulty": "easy"
+  },
+  {
+    "id": 39,
+    "question": "What is MongoDB?",
+    "options": ["NoSQL DB", "SQL DB", "Language", "Framework"],
+    "answer": "NoSQL DB",
+    "category": "database",
+    "difficulty": "easy"
+  },
+  {
+    "id": 40,
+    "question": "What is TypeScript?",
+    "options": ["JS superset", "Database", "OS", "Framework"],
+    "answer": "JS superset",
+    "category": "programming",
+    "difficulty": "easy"
+  },
+
+  {
+    "id": 41,
+    "question": "What is JWT?",
+    "options": ["Auth token", "Database", "Framework", "Protocol"],
+    "answer": "Auth token",
+    "category": "backend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What is flexbox?",
+    "options": ["Layout system", "Database", "API", "Language"],
+    "answer": "Layout system",
+    "category": "frontend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "What is aggregation?",
+    "options": ["Data grouping", "Delete", "Sort", "Join"],
+    "answer": "Data grouping",
+    "category": "database",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "What is caching?",
+    "options": ["Store temp data", "Delete data", "Encrypt", "Compile"],
+    "answer": "Store temp data",
+    "category": "backend",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "What is CI/CD?",
+    "options": ["Automation pipeline", "Database", "Language", "Framework"],
+    "answer": "Automation pipeline",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+
+  {
+    "id": 46,
+    "question": "What is throttling?",
+    "options": ["Limit rate", "Increase speed", "Delete data", "Sort"],
+    "answer": "Limit rate",
+    "category": "backend",
+    "difficulty": "hard"
+  },
+  {
+    "id": 47,
+    "question": "What is memoization?",
+    "options": ["Cache results", "Loop", "Class", "API"],
+    "answer": "Cache results",
+    "category": "programming",
+    "difficulty": "hard"
+  },
+  {
+    "id": 48,
+    "question": "What is SSR?",
+    "options": ["Server rendering", "Database", "API", "Framework"],
+    "answer": "Server rendering",
+    "category": "frontend",
+    "difficulty": "hard"
+  },
+  {
+    "id": 49,
+    "question": "What is sharding?",
+    "options": ["DB partition", "Join", "Sort", "Cache"],
+    "answer": "DB partition",
+    "category": "database",
+    "difficulty": "hard"
+  },
+  {
+    "id": 50,
+    "question": "What is load balancing?",
+    "options": ["Distribute traffic", "Delete data", "Encrypt", "Compile"],
+    "answer": "Distribute traffic",
+    "category": "backend",
+    "difficulty": "hard"
   }
 ]
